@@ -1,9 +1,15 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import {  
+  GlobeLock ,
+  PhoneCall,
+  Users,
+  MonitorCheck,
+  Target,
+  CircleCheckBig,
+  MailSearch,
+  CircleDollarSign,
+  CheckCircle,
+  FileText
+} from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -13,8 +19,8 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "About Us", href: "#" },
-  { label: "Carrers", href: "#" },
+  
+  { label: "Careers", href: "#" },
   { label: "Contact Us", href: "#" },
   { label: "Testimonials", href: "#" },
 ];
@@ -30,7 +36,7 @@ export const testimonials = [
     user: "Jane Smith",
     company: "Blue Horizon Technologies",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life.",
   },
   {
     user: "David Johnson",
@@ -42,7 +48,7 @@ export const testimonials = [
     user: "Ronee Brown",
     company: "Fusion Dynamics",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible.",
   },
   {
     user: "Michael Wilson",
@@ -60,63 +66,73 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
-    description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+    icon: < Users />,
+    text: "Audience Development",
+    description: "Weak audience data drains campaign ROI. We specialize in finding the right data for precise, omnichannel targeting.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
-    description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+    icon: <MonitorCheck />,
+    text: "Programmatic Display",
+    description: "Let us set up and manage your display ads seamlessly across devices and formats for impactful visibility and engagement.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
-    description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+    icon: <Target />,
+    text: "Retargeting",
+    description: "Don’t let leads slip away. We optimize audience targeting to maximize conversions and brand retention.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
-    description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+    icon: <CircleCheckBig />,
+    text: "Google Ads / PPC",
+    description: "Our Google Ads experts specialize in fine-tuning Search and PMax campaigns to deliver measurable results and ROI.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
-    description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+    icon: <MailSearch />,
+    text: "Email Marketing",
+    description: "Cold email marketing is a highly effective yet often underutilized tool for engaging and converting B2B audiences.",
   },
+  {
+    icon: <CircleDollarSign />,
+    text: "Paid Social",
+    description: "Leverage our expertise to manage Meta, LinkedIn, and X campaigns, optimizing every interaction to achieve your goals.",
+  },
+
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
-    description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+    text: "Ui/UX",
+    description: "Ready to refresh your website? Share your vision, and we’ll create an exceptional user experience tailored to your needs.",
   },
+
+  {
+    icon: <FileText />,
+    text: "Attribution",
+    description: "We analyze outcomes to give you a clear picture of campaign performance and the true value your investments deliver.",
+  },
+
+  {
+    icon: <CheckCircle />,
+    text: "Analytics",
+    description: "Track and optimize every step of the user journey—impressions, clicks, engagement and conversions—for maximum results.",
+  },
+
+
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    title: " Why Interactive Ads ?",
+    description: "Interactive ads capture attention 5x more effectively than static banners. Engage your audience with ads that deliver instant value and make a lasting impression.",
   },
   {
-    title: "Review code without worry",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    title: "What does bixy do ?",
+    description: "Deliver custom HTML ads to users on premium websites and apps through top ad platforms, leveraging advanced targeting options like location, CRM, retargeting, and contextual strategies.",
   },
   {
-    title: "AI Assistance to reduce time",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    title: "How can we help u ? ",
+    description: "Share your marketing goals, and we’ll craft industry-leading creative designs and strategies—ready for your review and approval within just 1 week.",
   },
   {
-    title: "Share work in minutes",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    title: "Ads on platfrom such as ",
+    description: "Google,Facebook,Twitter,Linkdin,Youtube ",
   },
 ];
 
@@ -126,7 +142,7 @@ export const pricingOptions = [
     price: "$0",
     features: [
       "Private board sharing",
-      "5 Gb Storage",
+      "5 GB Storage",
       "Web Analytics",
       "Private Mode",
     ],
@@ -136,8 +152,8 @@ export const pricingOptions = [
     price: "$10",
     features: [
       "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
+      "10 GB Storage",
+      "Advanced Web Analytics",
       "Private Mode",
     ],
   },
@@ -147,7 +163,7 @@ export const pricingOptions = [
     features: [
       "Private board sharing",
       "Unlimited Storage",
-      "High Performance Network",
+      "High-Performance Network",
       "Private Mode",
     ],
   },

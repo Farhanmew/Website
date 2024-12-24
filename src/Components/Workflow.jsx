@@ -5,12 +5,12 @@ import { checklistItems } from "../constants";
 const Workflow = () => {
   return (
     <div className="mt-20">
-    <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide"> 
-      Accelarate your {" "}
-      <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
-        Coding Workflow
+    <h2 className="text-xl sm:text-2xl lg:text-6xl text-center mt-6 tracking-wide"> 
+    Interactive ads capture attention {"  "} <br></br>
+      <span className="bg-gradient-to-r from-blue-500 to-blue-800 text-transparent bg-clip-text">
+      5x more effectively than static banners
       </span>
-      </h2>
+      </h2> <br></br>
       <div className="flex flex-wrap justify-center">
         <div className="p-2 w-full lg:w-1/2">
         <img src={codeImg} alt="Code" />
